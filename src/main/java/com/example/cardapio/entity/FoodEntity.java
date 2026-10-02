@@ -5,7 +5,7 @@ package com.example.cardapio.entity;
 public class FoodEntity {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Longe id;
+    private Long id;
     private String title;
     private String image;
     private Integer price;
