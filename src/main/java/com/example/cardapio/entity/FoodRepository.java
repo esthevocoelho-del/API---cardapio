@@ -1,5 +1,9 @@
 package com.example.cardapio.entity;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
 public interface FoodRepository extends JpaRepository<FoodEntity, Long> {
 
 }
